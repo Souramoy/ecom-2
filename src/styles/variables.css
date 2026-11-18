@@ -1,0 +1,72 @@
+:root {
+  /* Color Palette */
+  --color-bg-primary: #ffffff;
+  --color-bg-secondary: #f5f5f3;
+  --color-bg-tertiary: #ececea;
+  --color-bg-dark: #171717;
+  --color-bg-dark-elevated: #222222;
+
+  --color-text-primary: #171717;
+  --color-text-secondary: #777777;
+  --color-text-muted: #999999;
+  --color-text-inverse: #ffffff;
+  --color-text-inverse-muted: #b3b3b3;
+
+  --color-border: #e8e8e8;
+  --color-border-strong: #d0d0ce;
+  --color-border-dark: #2e2e2e;
+
+  --color-accent: #c7ff4d;
+  --color-accent-hover: #b6f235;
+  --color-accent-text: #171717;
+
+  --color-success: #166534;
+  --color-success-bg: #f0fdf4;
+  --color-error: #b91c1c;
+  --color-error-bg: #fef2f2;
+
+  /* Typography */
+  --font-display: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-body: 'Manrope', -apple-system, BlinkMacSystemFont, sans-serif;
+
+  /* Type Scale */
+  --text-xs: 0.75rem;
+  --text-sm: 0.875rem;
+  --text-base: 1rem;
+  --text-lg: 1.125rem;
+  --text-xl: 1.25rem;
+  --text-2xl: 1.5rem;
+  --text-3xl: 2rem;
+  --text-4xl: 2.5rem;
+  --text-hero: clamp(2.5rem, 4.6vw, 4.25rem);
+
+  /* Spacing & Layout */
+  --container-max: 1380px;
+  --container-padding: clamp(1rem, 3vw, 2.5rem);
+  --section-gap: clamp(3.5rem, 6vw, 5.5rem);
+
+  /* Radii */
+  --radius-none: 0px;
+  --radius-xs: 2px;
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-lg: 12px;
+
+  /* Shadows */
+  --shadow-subtle: 0 2px 10px rgba(23, 23, 23, 0.05);
+  --shadow-card: 0 8px 24px rgba(23, 23, 23, 0.08);
+  --shadow-drawer: 0 20px 50px rgba(23, 23, 23, 0.16);
+
+  /* Motion */
+  --ease-out-expo: cubic-bezier(0.16, 1, 0.3, 1);
+  --transition-fast: 160ms var(--ease-out-expo);
+  --transition-base: 240ms var(--ease-out-expo);
+  --transition-slow: 420ms var(--ease-out-expo);
+
+  /* Z-index layers */
+  --z-sticky: 40;
+  --z-dropdown: 50;
+  --z-drawer: 70;
+  --z-modal: 80;
+  --z-toast: 90;
+}
